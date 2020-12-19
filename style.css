@@ -1,7 +1,6 @@
 main {
   color: rgb(0, 0, 0);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin-top: 70px;
 }
 
 .heading1 {
@@ -72,12 +71,15 @@ nav {
 }
 section.sec1 {
   margin-top: -10px;
+  padding-top: 70px;
   width: 100%;
   height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .banner {
-  margin-top: 2%;
-  margin-left: 20%;
+  width: 50%;
 }
 .content p {
   width: 900px;
@@ -132,6 +134,20 @@ body {
   text-align: center;
   background-color: transparent;
 }
+
+footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(234, 241, 200) !important;
+  bottom: 0 !important;
+  text-align: center;
+  text-transform: lowercase;
+  font-style: italic;
+  color: rgb(2, 13, 22);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 100%;
+}
+
 /* Responsive columns - one column layout (vertical) on small screens */
 @media screen and (max-width: 600px) {
   .column {
@@ -151,6 +167,7 @@ footer {
   font-style: italic;
   color: rgb(2, 13, 22);
   font-family: Georgia, "Times New Roman", Times, serif;
+  width: 100%;
 }
 
 * {
@@ -285,6 +302,7 @@ i {
 .values {
   background-color: rgb(194, 51, 7) !important;
   color: white !important;
+  width: 100%;
 }
 
 .courses {
@@ -297,4 +315,8 @@ i {
 
 .container1 {
   padding: 2px 16px;
+}
+
+.w3wrapper {
+  width: 100%;
 }
