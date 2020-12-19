@@ -329,10 +329,11 @@ i {
   padding: 10px;
   font-weight: 600;
 }
+
 .last {
   text-align: center;
   font-weight: 700;
-  width: 100vw;
+  width: 100vw !important;
 }
 
 .w3wrapper {
