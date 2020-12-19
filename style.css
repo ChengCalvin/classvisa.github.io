@@ -185,6 +185,7 @@ body {
   background-color: whitesmoke;
   position: fixed;
   padding: 10px;
+  top: 0;
 }
 
 .nav > .nav-header {
@@ -237,6 +238,7 @@ i {
 @media (max-width: 600px) {
   .nav {
     height: 15%;
+    top: 0;
   }
   .nav > .nav-btn {
     display: inline-block;
