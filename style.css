@@ -185,7 +185,7 @@ body {
   background-color: whitesmoke;
   position: fixed;
   padding: 10px;
-  top: 0;
+  top: 0 !important;
 }
 
 .nav > .nav-header {
@@ -314,31 +314,26 @@ i {
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
-.instructors{
-    margin: 20px;
+.instructors {
+  margin: 20px;
 }
 .container1 {
-<<<<<<< HEAD
-    padding: 2px 16px;
-}
-.buttons{
-    display: block;
-    color: #fff;
-    background-color: rgb(228, 139, 23);
-    border-radius: 3px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 10px;
-    font-weight: 600;
-}
-.last{
-    text-align: center;
-    font-weight: 700;
-}
-=======
   padding: 2px 16px;
+}
+.buttons {
+  display: block;
+  color: #fff;
+  background-color: rgb(228, 139, 23);
+  border-radius: 3px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 10px;
+  font-weight: 600;
+}
+.last {
+  text-align: center;
+  font-weight: 700;
 }
 
 .w3wrapper {
   width: 100%;
 }
->>>>>>> d7647b457ad4a1fd8a7d16ad7eb2c2cf0ab8273e
